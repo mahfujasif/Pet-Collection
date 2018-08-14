@@ -1,0 +1,54 @@
+*.class
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.ear
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Intellij
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Netbeans
+nbactions.xml
+nb-configuration.xml
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
+
+# Mac
+.DS_Store
+
+# Maven
+log
+bin
+build
+target
+.springBeans
+.mvn
+!.mvn/wrapper/maven-wrapper.jar
+.factorypath
+/.apt_generated/
+
+# Project settings
+src/main/resources/hrms_jwt_key.jks
+src/main/resources/public.txt
+src/main/resources/config.properties
+src/main/resources/liquibase.properties
+
